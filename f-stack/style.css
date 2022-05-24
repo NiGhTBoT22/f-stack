@@ -1,0 +1,98 @@
+h1{
+    color: deepskyblue;
+    display: inline-flex;
+    background-color: aliceblue;
+    margin-bottom: -20px;
+    /* padding:5px;font-size: 30px; background-color: aliceblue; */
+}
+h2{
+    color: silver;
+}
+#logo{
+    text-align: center;
+}
+#cred{
+    text-align: center;
+    color: black;
+}
+#CH{
+    color: seashell;
+    text-align: center;
+    border-style: solid;
+    border-color: azure;
+    background-color: cornflowerblue;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+#form{
+    color: seashell;
+    text-align: center;
+    border-style: solid;
+    border-color: azure;
+    background-color: rgb(144, 183, 255);
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+#ABT{
+    color: ivory;
+}
+/* #sign-up{
+    color: blue;
+    text-decoration-color: cornsilk;
+} */
+#Gsign-up{
+    display: inline-flex;
+    padding: 5px;font-size: 3px;background-color: orange;
+}
+#Fsign-up{
+    display: inline-flex;
+    padding: 5px;font-size: 3px;background-color: blue;
+}
+
+/* .button{
+    background-color: aqua !important;
+    color: blueviolet !important;
+} */
+
+.full{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(./img1.jpg);
+    }
+    50%
+    {
+        background-image: url(./img2.jpg);
+    }
+    /* 40%
+    {
+        background-image: url(./img3.jpg);
+    }
+    60%
+    {
+        background-image: url(./img4.jpg);
+    }
+    80%
+    {
+        background-image: url(./img5.jpg);
+    } */
+    100%
+    {
+        background-image: url(./img1.jpg);
+    }
+}
